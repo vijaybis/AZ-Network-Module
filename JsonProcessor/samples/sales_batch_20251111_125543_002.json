@@ -1,0 +1,4793 @@
+{
+  "batch_id": "batch_20251111_125543",
+  "generated_at": "2025-11-11T12:55:43.948015Z",
+  "transaction_count": 100,
+  "date_range": {
+    "start": "2025-10-12T12:55:43.944514Z",
+    "end": "2025-11-11T12:55:43.944514Z"
+  },
+  "transactions": [
+    {
+      "transaction_id": "f508b0d7-b98b-494e-bbf2-54982040ec41",
+      "timestamp": "2025-11-11T13:26:31.944514Z",
+      "customer": {
+        "customer_id": "CUST-88649",
+        "name": "Michael Jones",
+        "email": "michael.jones@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2443",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 23.65,
+          "discount": 0.0,
+          "subtotal": 70.95
+        },
+        {
+          "product_id": "PROD-8866",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 28.49,
+          "discount": 0.0,
+          "subtotal": 142.45
+        },
+        {
+          "product_id": "PROD-3513",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 58.01,
+          "discount": 0.0,
+          "subtotal": 116.02
+        },
+        {
+          "product_id": "PROD-3267",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 14.6,
+          "discount": 0.0,
+          "subtotal": 43.8
+        },
+        {
+          "product_id": "PROD-9165",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 87.25,
+          "discount": 0.0,
+          "subtotal": 436.25
+        }
+      ],
+      "subtotal": 809.47,
+      "tax": 64.76,
+      "shipping_cost": 5.99,
+      "total": 880.22,
+      "payment_method": "Google Pay",
+      "shipping_method": "Standard",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "caf61a7a-b496-4d76-8773-fbb50e6c056e",
+      "timestamp": "2025-11-11T02:16:00.944514Z",
+      "customer": {
+        "customer_id": "CUST-71487",
+        "name": "William Rodriguez",
+        "email": "william.rodriguez@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1169",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 23.0,
+          "discount": 0.0,
+          "subtotal": 23.0
+        },
+        {
+          "product_id": "PROD-3299",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 27.65,
+          "discount": 0.0,
+          "subtotal": 55.3
+        }
+      ],
+      "subtotal": 78.3,
+      "tax": 6.26,
+      "shipping_cost": 5.99,
+      "total": 90.55,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "8f521147-e1dc-433e-bebb-17b0ecdec374",
+      "timestamp": "2025-11-11T08:54:20.944514Z",
+      "customer": {
+        "customer_id": "CUST-14934",
+        "name": "Patricia Lopez",
+        "email": "patricia.lopez@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1629",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 54.74,
+          "discount": 68.25,
+          "subtotal": 205.45
+        },
+        {
+          "product_id": "PROD-4401",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 23.49,
+          "discount": 0.0,
+          "subtotal": 46.98
+        }
+      ],
+      "subtotal": 252.42999999999998,
+      "tax": 20.19,
+      "shipping_cost": 35.99,
+      "total": 308.61,
+      "payment_method": "Apple Pay",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "64368ad0-3a9e-4ebd-bb13-8e886fa436d9",
+      "timestamp": "2025-11-11T12:33:42.944514Z",
+      "customer": {
+        "customer_id": "CUST-27342",
+        "name": "Robert Rodriguez",
+        "email": "robert.rodriguez@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7179",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 4,
+          "unit_price": 14.73,
+          "discount": 0.0,
+          "subtotal": 58.92
+        },
+        {
+          "product_id": "PROD-8650",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 84.24,
+          "discount": 0.0,
+          "subtotal": 336.96
+        }
+      ],
+      "subtotal": 395.88,
+      "tax": 31.67,
+      "shipping_cost": 5.99,
+      "total": 433.54,
+      "payment_method": "Google Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "a3a911de-c0d7-473a-bd0e-29c2a5b3cf4c",
+      "timestamp": "2025-11-11T09:33:46.944514Z",
+      "customer": {
+        "customer_id": "CUST-12154",
+        "name": "Patricia Martinez",
+        "email": "patricia.martinez@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2096",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 15.54,
+          "discount": 0.0,
+          "subtotal": 31.08
+        },
+        {
+          "product_id": "PROD-4053",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 119.11,
+          "discount": 0.0,
+          "subtotal": 595.55
+        },
+        {
+          "product_id": "PROD-3975",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 33.5,
+          "discount": 0.0,
+          "subtotal": 67.0
+        },
+        {
+          "product_id": "PROD-2832",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 10.6,
+          "discount": 0.0,
+          "subtotal": 21.2
+        }
+      ],
+      "subtotal": 714.8299999999999,
+      "tax": 57.19,
+      "shipping_cost": 35.99,
+      "total": 808.01,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "19cd9d1a-9d94-49ea-9d6b-59242b2d91e7",
+      "timestamp": "2025-11-11T12:19:18.944514Z",
+      "customer": {
+        "customer_id": "CUST-59529",
+        "name": "Susan Garcia",
+        "email": "susan.garcia@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6821",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 40.81,
+          "discount": 0.0,
+          "subtotal": 81.62
+        },
+        {
+          "product_id": "PROD-3606",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 22.53,
+          "discount": 0.0,
+          "subtotal": 90.12
+        },
+        {
+          "product_id": "PROD-2597",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 108.35,
+          "discount": 0.0,
+          "subtotal": 216.7
+        },
+        {
+          "product_id": "PROD-8987",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 123.12,
+          "discount": 0.0,
+          "subtotal": 246.24
+        },
+        {
+          "product_id": "PROD-7916",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 34.69,
+          "discount": 0.0,
+          "subtotal": 69.38
+        }
+      ],
+      "subtotal": 704.06,
+      "tax": 56.32,
+      "shipping_cost": 35.99,
+      "total": 796.37,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "ba1741ae-5bae-48cd-b8c7-37ba9e8d2244",
+      "timestamp": "2025-11-11T19:18:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-41639",
+        "name": "Mary Johnson",
+        "email": "mary.johnson@example.com",
+        "country": "France",
+        "state": "GA"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3509",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 18.02,
+          "discount": 0.0,
+          "subtotal": 72.08
+        },
+        {
+          "product_id": "PROD-5244",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 8.91,
+          "discount": 0.0,
+          "subtotal": 26.73
+        }
+      ],
+      "subtotal": 98.81,
+      "tax": 7.9,
+      "shipping_cost": 24.99,
+      "total": 131.7,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "99fbb3b0-635b-4cba-8d70-65fd6a39ba7e",
+      "timestamp": "2025-11-11T03:53:32.944514Z",
+      "customer": {
+        "customer_id": "CUST-76239",
+        "name": "Richard Williams",
+        "email": "richard.williams@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5577",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 21.62,
+          "discount": 0.0,
+          "subtotal": 86.48
+        },
+        {
+          "product_id": "PROD-5983",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 3,
+          "unit_price": 103.38,
+          "discount": 0.0,
+          "subtotal": 310.14
+        }
+      ],
+      "subtotal": 396.62,
+      "tax": 31.73,
+      "shipping_cost": 5.99,
+      "total": 434.34,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "a855f6e5-edd2-4daf-ab2c-1f6a598c0f1c",
+      "timestamp": "2025-11-11T22:16:45.944514Z",
+      "customer": {
+        "customer_id": "CUST-59819",
+        "name": "Patricia Williams",
+        "email": "patricia.williams@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8810",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 144.98,
+          "discount": 0.0,
+          "subtotal": 724.9
+        },
+        {
+          "product_id": "PROD-9711",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 13.84,
+          "discount": 0.0,
+          "subtotal": 69.2
+        },
+        {
+          "product_id": "PROD-4870",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 29.45,
+          "discount": 0.0,
+          "subtotal": 58.9
+        },
+        {
+          "product_id": "PROD-3472",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 79.27,
+          "discount": 0.0,
+          "subtotal": 237.81
+        }
+      ],
+      "subtotal": 1090.81,
+      "tax": 87.26,
+      "shipping_cost": 24.99,
+      "total": 1203.06,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "d8072512-a5fe-4aca-821f-7030bdc9bb7a",
+      "timestamp": "2025-11-11T22:14:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-87236",
+        "name": "Susan Williams",
+        "email": "susan.williams@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1347",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 48.97,
+          "discount": 0.0,
+          "subtotal": 48.97
+        }
+      ],
+      "subtotal": 48.97,
+      "tax": 3.92,
+      "shipping_cost": 35.99,
+      "total": 88.88,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "76a4836e-82aa-4c4f-a633-59d951b40573",
+      "timestamp": "2025-11-11T02:28:03.944514Z",
+      "customer": {
+        "customer_id": "CUST-25569",
+        "name": "Elizabeth Williams",
+        "email": "elizabeth.williams@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8000",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 49.59,
+          "discount": 0.0,
+          "subtotal": 148.77
+        }
+      ],
+      "subtotal": 148.77,
+      "tax": 11.9,
+      "shipping_cost": 24.99,
+      "total": 185.66,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "91caf88c-1be3-4e39-9f69-71e8b5f28dbe",
+      "timestamp": "2025-11-11T09:24:54.944514Z",
+      "customer": {
+        "customer_id": "CUST-14812",
+        "name": "Michael Miller",
+        "email": "michael.miller@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1504",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 20.61,
+          "discount": 11.43,
+          "subtotal": 50.4
+        },
+        {
+          "product_id": "PROD-6216",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 15.08,
+          "discount": 0.0,
+          "subtotal": 45.24
+        },
+        {
+          "product_id": "PROD-3349",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 32.03,
+          "discount": 5.26,
+          "subtotal": 26.77
+        }
+      ],
+      "subtotal": 122.41,
+      "tax": 9.79,
+      "shipping_cost": 24.99,
+      "total": 157.19,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "184d487b-35d6-409b-bb1d-c9625ac7f07d",
+      "timestamp": "2025-11-11T10:59:47.944514Z",
+      "customer": {
+        "customer_id": "CUST-43487",
+        "name": "Linda Garcia",
+        "email": "linda.garcia@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3066",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 39.39,
+          "discount": 0.0,
+          "subtotal": 157.56
+        },
+        {
+          "product_id": "PROD-8571",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 9.03,
+          "discount": 0.0,
+          "subtotal": 9.03
+        },
+        {
+          "product_id": "PROD-9928",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 138.51,
+          "discount": 0.0,
+          "subtotal": 415.53
+        },
+        {
+          "product_id": "PROD-2924",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 16.98,
+          "discount": 0.0,
+          "subtotal": 50.94
+        },
+        {
+          "product_id": "PROD-4461",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 11.98,
+          "discount": 0.0,
+          "subtotal": 23.96
+        }
+      ],
+      "subtotal": 657.02,
+      "tax": 52.56,
+      "shipping_cost": 5.99,
+      "total": 715.57,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "814a71f2-905b-46bf-b305-f266fc52f677",
+      "timestamp": "2025-11-11T14:25:33.944514Z",
+      "customer": {
+        "customer_id": "CUST-59160",
+        "name": "Susan Williams",
+        "email": "susan.williams@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4495",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 33.28,
+          "discount": 0.0,
+          "subtotal": 99.84
+        },
+        {
+          "product_id": "PROD-7239",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 4,
+          "unit_price": 16.07,
+          "discount": 0.0,
+          "subtotal": 64.28
+        },
+        {
+          "product_id": "PROD-5182",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 40.09,
+          "discount": 0.0,
+          "subtotal": 120.27
+        },
+        {
+          "product_id": "PROD-9495",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 13.98,
+          "discount": 0.0,
+          "subtotal": 13.98
+        }
+      ],
+      "subtotal": 298.37,
+      "tax": 23.87,
+      "shipping_cost": 5.99,
+      "total": 328.23,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Standard",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "8b0a3520-aca6-4336-be18-6613265b5f2d",
+      "timestamp": "2025-11-11T13:34:21.944514Z",
+      "customer": {
+        "customer_id": "CUST-19793",
+        "name": "Robert Gonzalez",
+        "email": "robert.gonzalez@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1326",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 13.62,
+          "discount": 2.87,
+          "subtotal": 24.37
+        },
+        {
+          "product_id": "PROD-7091",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 23.05,
+          "discount": 0.0,
+          "subtotal": 115.25
+        },
+        {
+          "product_id": "PROD-5698",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 11.59,
+          "discount": 0.0,
+          "subtotal": 11.59
+        },
+        {
+          "product_id": "PROD-7120",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 17.21,
+          "discount": 17.43,
+          "subtotal": 68.62
+        }
+      ],
+      "subtotal": 219.83,
+      "tax": 17.59,
+      "shipping_cost": 35.99,
+      "total": 273.41,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "96e86574-7f0b-448b-ac91-c856f2dd5f17",
+      "timestamp": "2025-11-11T18:14:18.944514Z",
+      "customer": {
+        "customer_id": "CUST-32614",
+        "name": "Michael Davis",
+        "email": "michael.davis@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8721",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 43.38,
+          "discount": 25.2,
+          "subtotal": 104.94
+        }
+      ],
+      "subtotal": 104.94,
+      "tax": 8.4,
+      "shipping_cost": 24.99,
+      "total": 138.33,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "278e297f-8643-45a3-af5a-0928f4d086ea",
+      "timestamp": "2025-11-11T07:14:15.944514Z",
+      "customer": {
+        "customer_id": "CUST-90499",
+        "name": "James Johnson",
+        "email": "james.johnson@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1802",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 17.41,
+          "discount": 4.75,
+          "subtotal": 30.07
+        },
+        {
+          "product_id": "PROD-3908",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 25.61,
+          "discount": 0.0,
+          "subtotal": 76.83
+        },
+        {
+          "product_id": "PROD-4186",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 20.71,
+          "discount": 0.0,
+          "subtotal": 41.42
+        }
+      ],
+      "subtotal": 148.32,
+      "tax": 11.87,
+      "shipping_cost": 5.99,
+      "total": 166.18,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "43c90d7d-f97c-4b58-90dc-41d7cf3eb70a",
+      "timestamp": "2025-11-11T10:06:40.944514Z",
+      "customer": {
+        "customer_id": "CUST-83392",
+        "name": "Elizabeth Miller",
+        "email": "elizabeth.miller@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4546",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 8.52,
+          "discount": 0.0,
+          "subtotal": 25.56
+        },
+        {
+          "product_id": "PROD-4508",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 9.02,
+          "discount": 0.0,
+          "subtotal": 45.1
+        }
+      ],
+      "subtotal": 70.66,
+      "tax": 5.65,
+      "shipping_cost": 35.99,
+      "total": 112.3,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "ecf7d06b-58b8-41be-8903-0d80ac092fbb",
+      "timestamp": "2025-11-11T06:32:15.944514Z",
+      "customer": {
+        "customer_id": "CUST-69044",
+        "name": "Susan Jones",
+        "email": "susan.jones@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6772",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 31.44,
+          "discount": 0.0,
+          "subtotal": 94.32
+        }
+      ],
+      "subtotal": 94.32,
+      "tax": 7.55,
+      "shipping_cost": 5.99,
+      "total": 107.86,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "fd3003f8-7e8a-49c9-9d4c-0efa54f6c6d2",
+      "timestamp": "2025-11-11T14:38:00.944514Z",
+      "customer": {
+        "customer_id": "CUST-92634",
+        "name": "Susan Davis",
+        "email": "susan.davis@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8187",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 4,
+          "unit_price": 16.0,
+          "discount": 0.0,
+          "subtotal": 64.0
+        },
+        {
+          "product_id": "PROD-6292",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 148.12,
+          "discount": 0.0,
+          "subtotal": 296.24
+        },
+        {
+          "product_id": "PROD-9571",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 57.33,
+          "discount": 0.0,
+          "subtotal": 114.66
+        },
+        {
+          "product_id": "PROD-4241",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 2,
+          "unit_price": 19.03,
+          "discount": 0.0,
+          "subtotal": 38.06
+        },
+        {
+          "product_id": "PROD-7199",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 15.58,
+          "discount": 4.5,
+          "subtotal": 11.08
+        }
+      ],
+      "subtotal": 524.04,
+      "tax": 41.92,
+      "shipping_cost": 35.99,
+      "total": 601.95,
+      "payment_method": "PayPal",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "f83e8949-a17f-420e-8cbd-19a7987dff07",
+      "timestamp": "2025-11-11T08:04:05.944514Z",
+      "customer": {
+        "customer_id": "CUST-37307",
+        "name": "John Martinez",
+        "email": "john.martinez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7218",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 5,
+          "unit_price": 109.14,
+          "discount": 0.0,
+          "subtotal": 545.7
+        },
+        {
+          "product_id": "PROD-5940",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 11.76,
+          "discount": 0.0,
+          "subtotal": 58.8
+        }
+      ],
+      "subtotal": 604.5,
+      "tax": 48.36,
+      "shipping_cost": 35.99,
+      "total": 688.85,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "4336cd81-5bad-4e13-9ed4-34db424d33a8",
+      "timestamp": "2025-11-11T23:46:27.944514Z",
+      "customer": {
+        "customer_id": "CUST-92399",
+        "name": "John Johnson",
+        "email": "john.johnson@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7166",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 8.96,
+          "discount": 0.0,
+          "subtotal": 8.96
+        },
+        {
+          "product_id": "PROD-6605",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 36.32,
+          "discount": 0.0,
+          "subtotal": 108.96
+        },
+        {
+          "product_id": "PROD-2646",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 5,
+          "unit_price": 17.53,
+          "discount": 0.0,
+          "subtotal": 87.65
+        },
+        {
+          "product_id": "PROD-1728",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 44.57,
+          "discount": 0.0,
+          "subtotal": 89.14
+        }
+      ],
+      "subtotal": 294.71,
+      "tax": 23.58,
+      "shipping_cost": 12.99,
+      "total": 331.28,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "5e73cb45-ae4f-4d83-b9bf-9eb2a93b3b07",
+      "timestamp": "2025-11-11T22:14:48.944514Z",
+      "customer": {
+        "customer_id": "CUST-58650",
+        "name": "Susan Smith",
+        "email": "susan.smith@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8594",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 30.81,
+          "discount": 0.0,
+          "subtotal": 92.43
+        },
+        {
+          "product_id": "PROD-3282",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 24.57,
+          "discount": 0.0,
+          "subtotal": 24.57
+        },
+        {
+          "product_id": "PROD-5690",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 9.7,
+          "discount": 0.0,
+          "subtotal": 29.1
+        },
+        {
+          "product_id": "PROD-9586",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 3,
+          "unit_price": 79.31,
+          "discount": 30.38,
+          "subtotal": 207.55
+        },
+        {
+          "product_id": "PROD-1453",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 73.31,
+          "discount": 0.0,
+          "subtotal": 146.62
+        }
+      ],
+      "subtotal": 500.27000000000004,
+      "tax": 40.02,
+      "shipping_cost": 35.99,
+      "total": 576.28,
+      "payment_method": "Google Pay",
+      "shipping_method": "International",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "6e8828eb-9804-4c2b-9717-454317e5ba63",
+      "timestamp": "2025-11-11T11:31:54.944514Z",
+      "customer": {
+        "customer_id": "CUST-82087",
+        "name": "Mary Jones",
+        "email": "mary.jones@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2766",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 10.69,
+          "discount": 2.42,
+          "subtotal": 29.65
+        },
+        {
+          "product_id": "PROD-8929",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 76.27,
+          "discount": 20.53,
+          "subtotal": 55.74
+        }
+      ],
+      "subtotal": 85.39,
+      "tax": 6.83,
+      "shipping_cost": 12.99,
+      "total": 105.21,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "5d3bea5e-7e2f-4345-a9f2-4296ce3bd64b",
+      "timestamp": "2025-11-11T15:18:02.944514Z",
+      "customer": {
+        "customer_id": "CUST-60072",
+        "name": "Robert Martinez",
+        "email": "robert.martinez@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3234",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 11.73,
+          "discount": 8.23,
+          "subtotal": 26.96
+        },
+        {
+          "product_id": "PROD-7256",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 31.57,
+          "discount": 0.0,
+          "subtotal": 157.85
+        },
+        {
+          "product_id": "PROD-1596",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 44.04,
+          "discount": 0.0,
+          "subtotal": 220.2
+        }
+      ],
+      "subtotal": 405.01,
+      "tax": 32.4,
+      "shipping_cost": 35.99,
+      "total": 473.4,
+      "payment_method": "Google Pay",
+      "shipping_method": "International",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "12d8e510-1d51-4919-823c-1d0cde1c7152",
+      "timestamp": "2025-11-11T05:14:40.944514Z",
+      "customer": {
+        "customer_id": "CUST-14305",
+        "name": "Robert Smith",
+        "email": "robert.smith@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3822",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 5,
+          "unit_price": 81.18,
+          "discount": 0.0,
+          "subtotal": 405.9
+        },
+        {
+          "product_id": "PROD-2635",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 126.01,
+          "discount": 0.0,
+          "subtotal": 504.04
+        },
+        {
+          "product_id": "PROD-6339",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 1,
+          "unit_price": 56.73,
+          "discount": 6.21,
+          "subtotal": 50.52
+        },
+        {
+          "product_id": "PROD-2968",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 1,
+          "unit_price": 108.9,
+          "discount": 0.0,
+          "subtotal": 108.9
+        },
+        {
+          "product_id": "PROD-2212",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 40.3,
+          "discount": 0.0,
+          "subtotal": 161.2
+        }
+      ],
+      "subtotal": 1230.56,
+      "tax": 98.44,
+      "shipping_cost": 12.99,
+      "total": 1341.99,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "9468554e-e4fd-44c0-85d4-cb060830a072",
+      "timestamp": "2025-11-11T07:22:36.944514Z",
+      "customer": {
+        "customer_id": "CUST-17933",
+        "name": "Patricia Garcia",
+        "email": "patricia.garcia@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3614",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 9.23,
+          "discount": 0.0,
+          "subtotal": 46.15
+        }
+      ],
+      "subtotal": 46.15,
+      "tax": 3.69,
+      "shipping_cost": 12.99,
+      "total": 62.83,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "9010fa38-79ba-47aa-abe1-ba8e75a87882",
+      "timestamp": "2025-11-11T09:06:56.944514Z",
+      "customer": {
+        "customer_id": "CUST-16586",
+        "name": "Richard Lopez",
+        "email": "richard.lopez@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9642",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 44.82,
+          "discount": 0.0,
+          "subtotal": 179.28
+        },
+        {
+          "product_id": "PROD-3613",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 108.54,
+          "discount": 0.0,
+          "subtotal": 542.7
+        }
+      ],
+      "subtotal": 721.98,
+      "tax": 57.76,
+      "shipping_cost": 35.99,
+      "total": 815.73,
+      "payment_method": "Apple Pay",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "925c04c9-8ae3-431c-af40-2edac497364e",
+      "timestamp": "2025-11-11T19:18:42.944514Z",
+      "customer": {
+        "customer_id": "CUST-96832",
+        "name": "Susan Garcia",
+        "email": "susan.garcia@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4364",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 18.21,
+          "discount": 0.0,
+          "subtotal": 72.84
+        }
+      ],
+      "subtotal": 72.84,
+      "tax": 5.83,
+      "shipping_cost": 24.99,
+      "total": 103.66,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "4dc41a86-e623-4d8a-abd3-3091c612a537",
+      "timestamp": "2025-11-11T23:46:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-11486",
+        "name": "Patricia Miller",
+        "email": "patricia.miller@example.com",
+        "country": "Canada",
+        "state": "CA"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8155",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 44.23,
+          "discount": 66.28,
+          "subtotal": 154.87
+        },
+        {
+          "product_id": "PROD-4122",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 41.42,
+          "discount": 0.0,
+          "subtotal": 165.68
+        },
+        {
+          "product_id": "PROD-6266",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 20.09,
+          "discount": 0.0,
+          "subtotal": 80.36
+        },
+        {
+          "product_id": "PROD-9467",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 49.35,
+          "discount": 0.0,
+          "subtotal": 197.4
+        },
+        {
+          "product_id": "PROD-5568",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 3,
+          "unit_price": 14.19,
+          "discount": 2.66,
+          "subtotal": 39.91
+        }
+      ],
+      "subtotal": 638.22,
+      "tax": 51.06,
+      "shipping_cost": 5.99,
+      "total": 695.27,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "8f92ff73-41f3-4bd8-a683-983fdfa3bcbd",
+      "timestamp": "2025-11-11T03:32:18.944514Z",
+      "customer": {
+        "customer_id": "CUST-61959",
+        "name": "Michael Lopez",
+        "email": "michael.lopez@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9463",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 20.11,
+          "discount": 0.0,
+          "subtotal": 100.55
+        },
+        {
+          "product_id": "PROD-7692",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 32.61,
+          "discount": 0.0,
+          "subtotal": 32.61
+        },
+        {
+          "product_id": "PROD-2857",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 8.83,
+          "discount": 0.0,
+          "subtotal": 26.49
+        },
+        {
+          "product_id": "PROD-1002",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 11.89,
+          "discount": 0.0,
+          "subtotal": 59.45
+        },
+        {
+          "product_id": "PROD-5595",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 56.22,
+          "discount": 0.0,
+          "subtotal": 281.1
+        }
+      ],
+      "subtotal": 500.20000000000005,
+      "tax": 40.02,
+      "shipping_cost": 5.99,
+      "total": 546.21,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "d77a0b68-c47a-4ccf-b240-184263efea9b",
+      "timestamp": "2025-11-11T13:34:55.944514Z",
+      "customer": {
+        "customer_id": "CUST-98874",
+        "name": "Michael Smith",
+        "email": "michael.smith@example.com",
+        "country": "Canada",
+        "state": "WA"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6170",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 8.2,
+          "discount": 0.0,
+          "subtotal": 41.0
+        }
+      ],
+      "subtotal": 41.0,
+      "tax": 3.28,
+      "shipping_cost": 24.99,
+      "total": 69.27,
+      "payment_method": "Google Pay",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "41510578-c5cc-4755-af40-1c42da0bf4b6",
+      "timestamp": "2025-11-11T02:33:01.944514Z",
+      "customer": {
+        "customer_id": "CUST-82160",
+        "name": "Patricia Lopez",
+        "email": "patricia.lopez@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3958",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 120.97,
+          "discount": 0.0,
+          "subtotal": 362.91
+        },
+        {
+          "product_id": "PROD-1007",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 46.94,
+          "discount": 0.0,
+          "subtotal": 140.82
+        },
+        {
+          "product_id": "PROD-4020",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 42.97,
+          "discount": 0.0,
+          "subtotal": 214.85
+        },
+        {
+          "product_id": "PROD-3006",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 10.45,
+          "discount": 0.0,
+          "subtotal": 10.45
+        },
+        {
+          "product_id": "PROD-5351",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 8.4,
+          "discount": 0.0,
+          "subtotal": 16.8
+        }
+      ],
+      "subtotal": 745.83,
+      "tax": 59.67,
+      "shipping_cost": 5.99,
+      "total": 811.49,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "e7f75eea-a4d0-405d-8dd3-bd9c1734f0f5",
+      "timestamp": "2025-11-11T03:31:37.944514Z",
+      "customer": {
+        "customer_id": "CUST-90276",
+        "name": "Linda Smith",
+        "email": "linda.smith@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9360",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 29.46,
+          "discount": 0.0,
+          "subtotal": 117.84
+        }
+      ],
+      "subtotal": 117.84,
+      "tax": 9.43,
+      "shipping_cost": 12.99,
+      "total": 140.26,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "55b308f2-444f-403e-bf84-cab130076212",
+      "timestamp": "2025-11-11T05:33:30.944514Z",
+      "customer": {
+        "customer_id": "CUST-89135",
+        "name": "Robert Hernandez",
+        "email": "robert.hernandez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8195",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 46.86,
+          "discount": 0.0,
+          "subtotal": 187.44
+        },
+        {
+          "product_id": "PROD-2239",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 8.05,
+          "discount": 0.0,
+          "subtotal": 40.25
+        },
+        {
+          "product_id": "PROD-5882",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 69.98,
+          "discount": 0.0,
+          "subtotal": 209.94
+        },
+        {
+          "product_id": "PROD-6782",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 36.63,
+          "discount": 0.0,
+          "subtotal": 73.26
+        },
+        {
+          "product_id": "PROD-9193",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 42.55,
+          "discount": 14.64,
+          "subtotal": 113.01
+        }
+      ],
+      "subtotal": 623.9,
+      "tax": 49.91,
+      "shipping_cost": 35.99,
+      "total": 709.8,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "4b41cc48-b680-45cb-a5f9-8b01dabec6ae",
+      "timestamp": "2025-11-11T07:00:53.944514Z",
+      "customer": {
+        "customer_id": "CUST-28500",
+        "name": "William Rodriguez",
+        "email": "william.rodriguez@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4086",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 32.65,
+          "discount": 11.38,
+          "subtotal": 53.92
+        },
+        {
+          "product_id": "PROD-1982",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 32.0,
+          "discount": 16.7,
+          "subtotal": 47.3
+        },
+        {
+          "product_id": "PROD-1430",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 147.28,
+          "discount": 0.0,
+          "subtotal": 294.56
+        },
+        {
+          "product_id": "PROD-8791",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 40.95,
+          "discount": 0.0,
+          "subtotal": 163.8
+        },
+        {
+          "product_id": "PROD-6184",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 5,
+          "unit_price": 95.48,
+          "discount": 0.0,
+          "subtotal": 477.4
+        }
+      ],
+      "subtotal": 1036.98,
+      "tax": 82.96,
+      "shipping_cost": 12.99,
+      "total": 1132.93,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "d0792aa9-4349-472a-8623-c9e27adf6aa5",
+      "timestamp": "2025-11-11T13:12:48.944514Z",
+      "customer": {
+        "customer_id": "CUST-78399",
+        "name": "William Garcia",
+        "email": "william.garcia@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2482",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 100.87,
+          "discount": 0.0,
+          "subtotal": 201.74
+        },
+        {
+          "product_id": "PROD-6365",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 2,
+          "unit_price": 15.26,
+          "discount": 0.0,
+          "subtotal": 30.52
+        }
+      ],
+      "subtotal": 232.26000000000002,
+      "tax": 18.58,
+      "shipping_cost": 5.99,
+      "total": 256.83,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "51a774d4-9b36-4c38-912f-db9b7d3f5333",
+      "timestamp": "2025-11-11T14:53:50.944514Z",
+      "customer": {
+        "customer_id": "CUST-97674",
+        "name": "Richard Jones",
+        "email": "richard.jones@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9003",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 52.55,
+          "discount": 0.0,
+          "subtotal": 210.2
+        },
+        {
+          "product_id": "PROD-1367",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 1,
+          "unit_price": 75.19,
+          "discount": 0.0,
+          "subtotal": 75.19
+        },
+        {
+          "product_id": "PROD-1470",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 10.83,
+          "discount": 0.0,
+          "subtotal": 32.49
+        },
+        {
+          "product_id": "PROD-9847",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 36.12,
+          "discount": 0.0,
+          "subtotal": 144.48
+        }
+      ],
+      "subtotal": 462.35999999999996,
+      "tax": 36.99,
+      "shipping_cost": 12.99,
+      "total": 512.34,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "b9d67844-f6e7-4376-9c90-429e269d8a3d",
+      "timestamp": "2025-11-11T05:08:19.944514Z",
+      "customer": {
+        "customer_id": "CUST-88608",
+        "name": "Mary Hernandez",
+        "email": "mary.hernandez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8245",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 41.14,
+          "discount": 0.0,
+          "subtotal": 41.14
+        }
+      ],
+      "subtotal": 41.14,
+      "tax": 3.29,
+      "shipping_cost": 12.99,
+      "total": 57.42,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "90cceea2-1b7a-4c5c-ada4-ce70bac7f4d3",
+      "timestamp": "2025-11-11T09:44:39.944514Z",
+      "customer": {
+        "customer_id": "CUST-65726",
+        "name": "Jennifer Brown",
+        "email": "jennifer.brown@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8204",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 26.59,
+          "discount": 0.0,
+          "subtotal": 53.18
+        },
+        {
+          "product_id": "PROD-6372",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 21.95,
+          "discount": 0.0,
+          "subtotal": 65.85
+        }
+      ],
+      "subtotal": 119.03,
+      "tax": 9.52,
+      "shipping_cost": 12.99,
+      "total": 141.54,
+      "payment_method": "PayPal",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "669697a7-72c8-44da-b9b9-f0440f8b69d7",
+      "timestamp": "2025-11-11T08:44:04.944514Z",
+      "customer": {
+        "customer_id": "CUST-20268",
+        "name": "Elizabeth Martinez",
+        "email": "elizabeth.martinez@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6217",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 21.87,
+          "discount": 0.0,
+          "subtotal": 109.35
+        }
+      ],
+      "subtotal": 109.35,
+      "tax": 8.75,
+      "shipping_cost": 5.99,
+      "total": 124.09,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "6da2b712-25ad-40c9-8b5c-64cc41cd76de",
+      "timestamp": "2025-11-11T00:56:57.944514Z",
+      "customer": {
+        "customer_id": "CUST-26775",
+        "name": "Mary Lopez",
+        "email": "mary.lopez@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3823",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 37.11,
+          "discount": 0.0,
+          "subtotal": 37.11
+        },
+        {
+          "product_id": "PROD-8382",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 145.33,
+          "discount": 0.0,
+          "subtotal": 290.66
+        },
+        {
+          "product_id": "PROD-8590",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 144.14,
+          "discount": 0.0,
+          "subtotal": 288.28
+        },
+        {
+          "product_id": "PROD-6550",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 38.51,
+          "discount": 0.0,
+          "subtotal": 154.04
+        },
+        {
+          "product_id": "PROD-9822",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 1,
+          "unit_price": 17.38,
+          "discount": 0.0,
+          "subtotal": 17.38
+        }
+      ],
+      "subtotal": 787.47,
+      "tax": 63.0,
+      "shipping_cost": 12.99,
+      "total": 863.46,
+      "payment_method": "PayPal",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "918ffbbd-274b-44eb-b210-bb355f698437",
+      "timestamp": "2025-11-11T21:57:35.944514Z",
+      "customer": {
+        "customer_id": "CUST-56835",
+        "name": "David Johnson",
+        "email": "david.johnson@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9309",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 23.88,
+          "discount": 0.0,
+          "subtotal": 47.76
+        },
+        {
+          "product_id": "PROD-2269",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 142.03,
+          "discount": 68.76,
+          "subtotal": 215.3
+        },
+        {
+          "product_id": "PROD-5954",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 33.55,
+          "discount": 0.0,
+          "subtotal": 167.75
+        },
+        {
+          "product_id": "PROD-6057",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 67.76,
+          "discount": 0.0,
+          "subtotal": 67.76
+        },
+        {
+          "product_id": "PROD-5884",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 3,
+          "unit_price": 92.28,
+          "discount": 0.0,
+          "subtotal": 276.84
+        }
+      ],
+      "subtotal": 775.41,
+      "tax": 62.03,
+      "shipping_cost": 12.99,
+      "total": 850.43,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "2ed96852-55bb-457c-abd0-3819051b40b4",
+      "timestamp": "2025-11-11T23:51:23.944514Z",
+      "customer": {
+        "customer_id": "CUST-42291",
+        "name": "Robert Davis",
+        "email": "robert.davis@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7043",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 12.04,
+          "discount": 0.0,
+          "subtotal": 60.2
+        },
+        {
+          "product_id": "PROD-4321",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 17.1,
+          "discount": 0.0,
+          "subtotal": 34.2
+        }
+      ],
+      "subtotal": 94.4,
+      "tax": 7.55,
+      "shipping_cost": 5.99,
+      "total": 107.94,
+      "payment_method": "Google Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "b78bc5e0-cf83-440b-886d-c91d5c40398c",
+      "timestamp": "2025-11-11T18:56:27.944514Z",
+      "customer": {
+        "customer_id": "CUST-96754",
+        "name": "Susan Hernandez",
+        "email": "susan.hernandez@example.com",
+        "country": "UK",
+        "state": "FL"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9856",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 3,
+          "unit_price": 107.23,
+          "discount": 0.0,
+          "subtotal": 321.69
+        },
+        {
+          "product_id": "PROD-6462",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 21.83,
+          "discount": 0.0,
+          "subtotal": 65.49
+        },
+        {
+          "product_id": "PROD-8635",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 36.49,
+          "discount": 5.87,
+          "subtotal": 103.6
+        },
+        {
+          "product_id": "PROD-2676",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 29.01,
+          "discount": 2.23,
+          "subtotal": 26.78
+        },
+        {
+          "product_id": "PROD-4043",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 43.03,
+          "discount": 0.0,
+          "subtotal": 172.12
+        }
+      ],
+      "subtotal": 689.68,
+      "tax": 55.17,
+      "shipping_cost": 5.99,
+      "total": 750.84,
+      "payment_method": "Debit Card",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "737472ac-a7c7-4a99-8fd5-b1003e31c67a",
+      "timestamp": "2025-11-11T06:08:20.944514Z",
+      "customer": {
+        "customer_id": "CUST-68611",
+        "name": "Susan Lopez",
+        "email": "susan.lopez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2209",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 65.31,
+          "discount": 0.0,
+          "subtotal": 326.55
+        },
+        {
+          "product_id": "PROD-4773",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 31.73,
+          "discount": 0.0,
+          "subtotal": 158.65
+        },
+        {
+          "product_id": "PROD-2734",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 139.35,
+          "discount": 0.0,
+          "subtotal": 139.35
+        },
+        {
+          "product_id": "PROD-6006",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 3,
+          "unit_price": 13.41,
+          "discount": 0.0,
+          "subtotal": 40.23
+        },
+        {
+          "product_id": "PROD-2410",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 65.17,
+          "discount": 0.0,
+          "subtotal": 260.68
+        }
+      ],
+      "subtotal": 925.46,
+      "tax": 74.04,
+      "shipping_cost": 24.99,
+      "total": 1024.49,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "c926ea73-2ee1-4982-916a-3fe61ca3d245",
+      "timestamp": "2025-11-11T22:11:50.944514Z",
+      "customer": {
+        "customer_id": "CUST-19371",
+        "name": "Barbara Brown",
+        "email": "barbara.brown@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5204",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 83.09,
+          "discount": 0.0,
+          "subtotal": 166.18
+        },
+        {
+          "product_id": "PROD-8375",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 12.5,
+          "discount": 2.22,
+          "subtotal": 35.28
+        },
+        {
+          "product_id": "PROD-5240",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 13.7,
+          "discount": 0.0,
+          "subtotal": 68.5
+        },
+        {
+          "product_id": "PROD-4754",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 38.05,
+          "discount": 19.42,
+          "subtotal": 56.68
+        },
+        {
+          "product_id": "PROD-3848",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 1,
+          "unit_price": 84.34,
+          "discount": 0.0,
+          "subtotal": 84.34
+        }
+      ],
+      "subtotal": 410.98,
+      "tax": 32.88,
+      "shipping_cost": 12.99,
+      "total": 456.85,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "b93cea50-a249-4c1d-964b-9825133abe4b",
+      "timestamp": "2025-11-11T15:16:46.944514Z",
+      "customer": {
+        "customer_id": "CUST-60999",
+        "name": "William Gonzalez",
+        "email": "william.gonzalez@example.com",
+        "country": "Japan",
+        "state": "CA"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7002",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 64.57,
+          "discount": 0.0,
+          "subtotal": 64.57
+        }
+      ],
+      "subtotal": 64.57,
+      "tax": 5.17,
+      "shipping_cost": 12.99,
+      "total": 82.73,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "203430cd-a509-4eb2-8115-9377e82f1b9c",
+      "timestamp": "2025-11-11T00:19:52.944514Z",
+      "customer": {
+        "customer_id": "CUST-12544",
+        "name": "Elizabeth Gonzalez",
+        "email": "elizabeth.gonzalez@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3040",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 30.68,
+          "discount": 0.0,
+          "subtotal": 61.36
+        },
+        {
+          "product_id": "PROD-7952",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 38.84,
+          "discount": 0.0,
+          "subtotal": 155.36
+        },
+        {
+          "product_id": "PROD-4789",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 11.8,
+          "discount": 0.0,
+          "subtotal": 47.2
+        },
+        {
+          "product_id": "PROD-9124",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 111.82,
+          "discount": 0.0,
+          "subtotal": 335.46
+        }
+      ],
+      "subtotal": 599.38,
+      "tax": 47.95,
+      "shipping_cost": 24.99,
+      "total": 672.32,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "49a944dc-32c4-495d-ab6a-ef386e0469ab",
+      "timestamp": "2025-11-11T09:56:20.944514Z",
+      "customer": {
+        "customer_id": "CUST-16051",
+        "name": "Michael Martinez",
+        "email": "michael.martinez@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5726",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 14.02,
+          "discount": 0.0,
+          "subtotal": 56.08
+        },
+        {
+          "product_id": "PROD-2867",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 137.05,
+          "discount": 88.68,
+          "subtotal": 459.52
+        },
+        {
+          "product_id": "PROD-9847",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 39.17,
+          "discount": 0.0,
+          "subtotal": 78.34
+        },
+        {
+          "product_id": "PROD-7847",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 113.51,
+          "discount": 0.0,
+          "subtotal": 567.55
+        },
+        {
+          "product_id": "PROD-4099",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 30.71,
+          "discount": 0.0,
+          "subtotal": 122.84
+        }
+      ],
+      "subtotal": 1284.33,
+      "tax": 102.75,
+      "shipping_cost": 24.99,
+      "total": 1412.07,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "3cdf8862-a7a3-4271-948b-3c46f8c2453d",
+      "timestamp": "2025-11-11T11:08:59.944514Z",
+      "customer": {
+        "customer_id": "CUST-52627",
+        "name": "Robert Davis",
+        "email": "robert.davis@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9080",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 130.83,
+          "discount": 0.0,
+          "subtotal": 392.49
+        },
+        {
+          "product_id": "PROD-5750",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 12.52,
+          "discount": 0.0,
+          "subtotal": 25.04
+        }
+      ],
+      "subtotal": 417.53000000000003,
+      "tax": 33.4,
+      "shipping_cost": 35.99,
+      "total": 486.92,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "e4f4d8de-777a-4723-93e2-bc97c614d23b",
+      "timestamp": "2025-11-11T01:55:09.944514Z",
+      "customer": {
+        "customer_id": "CUST-94264",
+        "name": "Elizabeth Williams",
+        "email": "elizabeth.williams@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8474",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 14.22,
+          "discount": 0.0,
+          "subtotal": 56.88
+        },
+        {
+          "product_id": "PROD-9631",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 38.15,
+          "discount": 0.0,
+          "subtotal": 38.15
+        },
+        {
+          "product_id": "PROD-2926",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 84.43,
+          "discount": 14.52,
+          "subtotal": 154.34
+        },
+        {
+          "product_id": "PROD-3269",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 21.26,
+          "discount": 0.0,
+          "subtotal": 21.26
+        },
+        {
+          "product_id": "PROD-8661",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 8.12,
+          "discount": 0.0,
+          "subtotal": 32.48
+        }
+      ],
+      "subtotal": 303.11,
+      "tax": 24.25,
+      "shipping_cost": 5.99,
+      "total": 333.35,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "e9557949-0d45-42fa-8611-798d99344aab",
+      "timestamp": "2025-11-11T13:40:03.944514Z",
+      "customer": {
+        "customer_id": "CUST-20179",
+        "name": "Patricia Rodriguez",
+        "email": "patricia.rodriguez@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4909",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 5,
+          "unit_price": 81.74,
+          "discount": 0.0,
+          "subtotal": 408.7
+        },
+        {
+          "product_id": "PROD-8147",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 2,
+          "unit_price": 16.48,
+          "discount": 0.0,
+          "subtotal": 32.96
+        },
+        {
+          "product_id": "PROD-7970",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 9.91,
+          "discount": 0.0,
+          "subtotal": 9.91
+        },
+        {
+          "product_id": "PROD-4365",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 5,
+          "unit_price": 17.22,
+          "discount": 0.0,
+          "subtotal": 86.1
+        },
+        {
+          "product_id": "PROD-6676",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 23.18,
+          "discount": 0.0,
+          "subtotal": 23.18
+        }
+      ],
+      "subtotal": 560.85,
+      "tax": 44.87,
+      "shipping_cost": 24.99,
+      "total": 630.71,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "64d97ee2-94e3-4d50-8f6a-d1b5ba436c5e",
+      "timestamp": "2025-11-11T05:25:12.944514Z",
+      "customer": {
+        "customer_id": "CUST-79791",
+        "name": "Robert Brown",
+        "email": "robert.brown@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4972",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 10.78,
+          "discount": 0.0,
+          "subtotal": 10.78
+        },
+        {
+          "product_id": "PROD-7209",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 39.85,
+          "discount": 18.41,
+          "subtotal": 101.14
+        },
+        {
+          "product_id": "PROD-5133",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 35.58,
+          "discount": 0.0,
+          "subtotal": 142.32
+        },
+        {
+          "product_id": "PROD-3632",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 47.11,
+          "discount": 0.0,
+          "subtotal": 235.55
+        },
+        {
+          "product_id": "PROD-5399",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 47.3,
+          "discount": 0.0,
+          "subtotal": 189.2
+        }
+      ],
+      "subtotal": 678.99,
+      "tax": 54.32,
+      "shipping_cost": 12.99,
+      "total": 746.3,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "fafb591e-a0b2-4893-8a9c-0c41639fba61",
+      "timestamp": "2025-11-11T08:59:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-84878",
+        "name": "Linda Jones",
+        "email": "linda.jones@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1940",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 23.49,
+          "discount": 0.0,
+          "subtotal": 46.98
+        },
+        {
+          "product_id": "PROD-8116",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 50.35,
+          "discount": 55.29,
+          "subtotal": 196.46
+        },
+        {
+          "product_id": "PROD-1949",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 117.96,
+          "discount": 0.0,
+          "subtotal": 471.84
+        }
+      ],
+      "subtotal": 715.28,
+      "tax": 57.22,
+      "shipping_cost": 12.99,
+      "total": 14471.0,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": true
+    },
+    {
+      "transaction_id": "e5011301-7727-45c5-adbc-21715333d6f8",
+      "timestamp": "2025-11-11T12:44:23.944514Z",
+      "customer": {
+        "customer_id": "CUST-79806",
+        "name": "Richard Garcia",
+        "email": "richard.garcia@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1443",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 98.34,
+          "discount": 0.0,
+          "subtotal": 393.36
+        },
+        {
+          "product_id": "PROD-2164",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 24.58,
+          "discount": 0.0,
+          "subtotal": 49.16
+        }
+      ],
+      "subtotal": 442.52,
+      "tax": 35.4,
+      "shipping_cost": 24.99,
+      "total": 502.91,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "3d6b9e70-6187-469b-936d-5f4623ed87f9",
+      "timestamp": "2025-11-11T13:35:30.944514Z",
+      "customer": {
+        "customer_id": "CUST-22538",
+        "name": "Michael Lopez",
+        "email": "michael.lopez@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9980",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 11.1,
+          "discount": 0.0,
+          "subtotal": 44.4
+        },
+        {
+          "product_id": "PROD-3779",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 47.48,
+          "discount": 0.0,
+          "subtotal": 189.92
+        },
+        {
+          "product_id": "PROD-4230",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 10.54,
+          "discount": 0.0,
+          "subtotal": 42.16
+        }
+      ],
+      "subtotal": 276.47999999999996,
+      "tax": 22.12,
+      "shipping_cost": 35.99,
+      "total": 334.59,
+      "payment_method": "PayPal",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "7d2aa9c0-5acf-4871-9750-49d5e7994201",
+      "timestamp": "2025-11-11T06:55:58.944514Z",
+      "customer": {
+        "customer_id": "CUST-40650",
+        "name": "John Jones",
+        "email": "john.jones@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1135",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 8.95,
+          "discount": 0.0,
+          "subtotal": 8.95
+        }
+      ],
+      "subtotal": 8.95,
+      "tax": 0.72,
+      "shipping_cost": 12.99,
+      "total": 22.66,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "90a4bd9f-0c64-4d4e-8dd2-9c8878109aa6",
+      "timestamp": "2025-11-11T13:15:31.944514Z",
+      "customer": {
+        "customer_id": "CUST-89579",
+        "name": "William Hernandez",
+        "email": "william.hernandez@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4864",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 105.65,
+          "discount": 0.0,
+          "subtotal": 211.3
+        },
+        {
+          "product_id": "PROD-5339",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 148.4,
+          "discount": 0.0,
+          "subtotal": 148.4
+        },
+        {
+          "product_id": "PROD-7018",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 13.22,
+          "discount": 0.0,
+          "subtotal": 52.88
+        },
+        {
+          "product_id": "PROD-8405",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 42.79,
+          "discount": 0.0,
+          "subtotal": 85.58
+        }
+      ],
+      "subtotal": 498.16,
+      "tax": 39.85,
+      "shipping_cost": 35.99,
+      "total": 574.0,
+      "payment_method": "PayPal",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "e25765c9-f7bc-4732-a5f4-5e54a2d1426e",
+      "timestamp": "2025-11-11T16:52:44.944514Z",
+      "customer": {
+        "customer_id": "CUST-79051",
+        "name": "William Williams",
+        "email": "william.williams@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3445",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 90.79,
+          "discount": 0.0,
+          "subtotal": 272.37
+        },
+        {
+          "product_id": "PROD-9467",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 4,
+          "unit_price": 77.53,
+          "discount": 0.0,
+          "subtotal": 310.12
+        }
+      ],
+      "subtotal": 582.49,
+      "tax": 46.6,
+      "shipping_cost": 5.99,
+      "total": 635.08,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "9da27633-b1e0-4f53-b55d-98bf7ff58b52",
+      "timestamp": "2025-11-11T17:45:12.944514Z",
+      "customer": {
+        "customer_id": "CUST-51014",
+        "name": "Mary Johnson",
+        "email": "mary.johnson@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5184",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 67.9,
+          "discount": 0.0,
+          "subtotal": 135.8
+        },
+        {
+          "product_id": "PROD-4684",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 25.83,
+          "discount": 0.0,
+          "subtotal": 103.32
+        }
+      ],
+      "subtotal": 239.12,
+      "tax": 19.13,
+      "shipping_cost": 12.99,
+      "total": 271.24,
+      "payment_method": "PayPal",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "9df3d747-db27-4f16-9ded-18a3ab53a4f4",
+      "timestamp": "2025-11-11T03:46:03.944514Z",
+      "customer": {
+        "customer_id": "CUST-10160",
+        "name": "Michael Miller",
+        "email": "michael.miller@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8621",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 13.28,
+          "discount": 0.0,
+          "subtotal": 26.56
+        },
+        {
+          "product_id": "PROD-1845",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 32.53,
+          "discount": 0.0,
+          "subtotal": 65.06
+        },
+        {
+          "product_id": "PROD-9503",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 35.76,
+          "discount": 0.0,
+          "subtotal": 35.76
+        },
+        {
+          "product_id": "PROD-2497",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 65.21,
+          "discount": 17.57,
+          "subtotal": 178.06
+        },
+        {
+          "product_id": "PROD-4265",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 114.69,
+          "discount": 0.0,
+          "subtotal": 458.76
+        }
+      ],
+      "subtotal": 764.2,
+      "tax": 61.14,
+      "shipping_cost": 12.99,
+      "total": 838.33,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "97e5ded7-9998-41f1-b3dc-a9ae4f763371",
+      "timestamp": "2025-11-11T06:24:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-86973",
+        "name": "Mary Martinez",
+        "email": "mary.martinez@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2393",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 80.19,
+          "discount": 0.0,
+          "subtotal": 320.76
+        },
+        {
+          "product_id": "PROD-2315",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 89.11,
+          "discount": 0.0,
+          "subtotal": 356.44
+        },
+        {
+          "product_id": "PROD-6564",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 26.1,
+          "discount": 0.0,
+          "subtotal": 26.1
+        },
+        {
+          "product_id": "PROD-9789",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 30.6,
+          "discount": 0.0,
+          "subtotal": 30.6
+        }
+      ],
+      "subtotal": 733.9,
+      "tax": 58.71,
+      "shipping_cost": 5.99,
+      "total": 798.6,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "47a50dac-8c78-4935-a995-11ded0bc899e",
+      "timestamp": "2025-11-11T04:09:16.944514Z",
+      "customer": {
+        "customer_id": "CUST-12432",
+        "name": "Robert Miller",
+        "email": "robert.miller@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4836",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 12.02,
+          "discount": 0.0,
+          "subtotal": 24.04
+        },
+        {
+          "product_id": "PROD-5822",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 58.85,
+          "discount": 0.0,
+          "subtotal": 176.55
+        },
+        {
+          "product_id": "PROD-8362",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 22.26,
+          "discount": 0.0,
+          "subtotal": 111.3
+        }
+      ],
+      "subtotal": 311.89,
+      "tax": 24.95,
+      "shipping_cost": 5.99,
+      "total": 342.83,
+      "payment_method": "Google Pay",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "50fcc804-83a7-4596-8f5b-d55814e4e794",
+      "timestamp": "2025-11-11T23:42:03.944514Z",
+      "customer": {
+        "customer_id": "CUST-51068",
+        "name": "Richard Jones",
+        "email": "richard.jones@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6864",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 117.56,
+          "discount": 0.0,
+          "subtotal": 352.68
+        },
+        {
+          "product_id": "PROD-1883",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 116.76,
+          "discount": 0.0,
+          "subtotal": 233.52
+        }
+      ],
+      "subtotal": 586.2,
+      "tax": 46.9,
+      "shipping_cost": 12.99,
+      "total": 646.09,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "468d1707-3685-4171-b580-e3ab12bae671",
+      "timestamp": "2025-11-11T20:40:26.944514Z",
+      "customer": {
+        "customer_id": "CUST-23231",
+        "name": "Richard Davis",
+        "email": "richard.davis@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8757",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 4,
+          "unit_price": 18.54,
+          "discount": 0.0,
+          "subtotal": 74.16
+        }
+      ],
+      "subtotal": 74.16,
+      "tax": 5.93,
+      "shipping_cost": 12.99,
+      "total": 93.08,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "d52db1d4-064b-4ed3-bc98-e51e207b7296",
+      "timestamp": "2025-11-11T15:29:05.944514Z",
+      "customer": {
+        "customer_id": "CUST-19488",
+        "name": "Patricia Miller",
+        "email": "patricia.miller@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2307",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 43.72,
+          "discount": 0.0,
+          "subtotal": 174.88
+        }
+      ],
+      "subtotal": 174.88,
+      "tax": 13.99,
+      "shipping_cost": 24.99,
+      "total": 213.86,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "2adcff07-5d3a-4b73-8f8d-4bb660314525",
+      "timestamp": "2025-11-11T19:14:24.944514Z",
+      "customer": {
+        "customer_id": "CUST-94988",
+        "name": "Barbara Gonzalez",
+        "email": "barbara.gonzalez@example.com",
+        "country": "Japan",
+        "state": "TX"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3074",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 24.1,
+          "discount": 0.0,
+          "subtotal": 72.3
+        }
+      ],
+      "subtotal": 72.3,
+      "tax": 5.78,
+      "shipping_cost": 24.99,
+      "total": 103.07,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "0ad0318b-2b65-4af5-88b1-7bba55d6cd23",
+      "timestamp": "2025-11-11T14:19:21.944514Z",
+      "customer": {
+        "customer_id": "CUST-86455",
+        "name": "Linda Smith",
+        "email": "linda.smith@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5433",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 3,
+          "unit_price": 59.21,
+          "discount": 0.0,
+          "subtotal": 177.63
+        }
+      ],
+      "subtotal": 177.63,
+      "tax": 14.21,
+      "shipping_cost": 24.99,
+      "total": 216.83,
+      "payment_method": "Debit Card",
+      "shipping_method": "Next Day",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "1430c347-dc64-4e49-b5f6-8526ef4fcfa9",
+      "timestamp": "2025-11-11T23:52:13.944514Z",
+      "customer": {
+        "customer_id": "CUST-51408",
+        "name": "Linda Martinez",
+        "email": "linda.martinez@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1205",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 36.92,
+          "discount": 0.0,
+          "subtotal": 110.76
+        },
+        {
+          "product_id": "PROD-7935",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 82.93,
+          "discount": 0.0,
+          "subtotal": 165.86
+        },
+        {
+          "product_id": "PROD-4370",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 10.63,
+          "discount": 0.0,
+          "subtotal": 31.89
+        },
+        {
+          "product_id": "PROD-8329",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 45.92,
+          "discount": 0.0,
+          "subtotal": 183.68
+        },
+        {
+          "product_id": "PROD-4451",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 32.53,
+          "discount": 0.0,
+          "subtotal": 65.06
+        }
+      ],
+      "subtotal": 557.25,
+      "tax": 44.58,
+      "shipping_cost": 12.99,
+      "total": 614.82,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "6694952a-d2d1-4e6f-83a0-7f020d5bd992",
+      "timestamp": "2025-11-11T06:06:23.944514Z",
+      "customer": {
+        "customer_id": "CUST-91946",
+        "name": "David Smith",
+        "email": "david.smith@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1205",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 67.46,
+          "discount": 0.0,
+          "subtotal": 67.46
+        },
+        {
+          "product_id": "PROD-6328",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 14.53,
+          "discount": 0.0,
+          "subtotal": 14.53
+        }
+      ],
+      "subtotal": 81.99,
+      "tax": 6.56,
+      "shipping_cost": 5.99,
+      "total": 94.54,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "494ff5e9-241b-4e58-bb42-b7924a7f30f1",
+      "timestamp": "2025-11-11T18:09:02.944514Z",
+      "customer": {
+        "customer_id": "CUST-47413",
+        "name": "Elizabeth Lopez",
+        "email": "elizabeth.lopez@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5566",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 2,
+          "unit_price": 95.23,
+          "discount": 34.37,
+          "subtotal": 156.09
+        },
+        {
+          "product_id": "PROD-3479",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 13.15,
+          "discount": 4.51,
+          "subtotal": 48.09
+        }
+      ],
+      "subtotal": 204.18,
+      "tax": 16.33,
+      "shipping_cost": 35.99,
+      "total": 256.5,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "61cc8763-5108-400b-9cba-f0f1e6e2053f",
+      "timestamp": "2025-11-11T15:31:58.944514Z",
+      "customer": {
+        "customer_id": "CUST-56982",
+        "name": "Robert Miller",
+        "email": "robert.miller@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8446",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 3,
+          "unit_price": 70.0,
+          "discount": 0.0,
+          "subtotal": 210.0
+        },
+        {
+          "product_id": "PROD-1530",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 110.66,
+          "discount": 112.02,
+          "subtotal": 441.28
+        },
+        {
+          "product_id": "PROD-1391",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 71.41,
+          "discount": 0.0,
+          "subtotal": 142.82
+        },
+        {
+          "product_id": "PROD-4769",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 3,
+          "unit_price": 99.26,
+          "discount": 0.0,
+          "subtotal": 297.78
+        }
+      ],
+      "subtotal": 1091.8799999999999,
+      "tax": 87.35,
+      "shipping_cost": 35.99,
+      "total": 1215.22,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "52d37862-dbbf-413f-8cb9-e676bba7078c",
+      "timestamp": "2025-11-11T15:04:51.944514Z",
+      "customer": {
+        "customer_id": "CUST-57254",
+        "name": "Richard Lopez",
+        "email": "richard.lopez@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1685",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 51.87,
+          "discount": 0.0,
+          "subtotal": 259.35
+        },
+        {
+          "product_id": "PROD-4680",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 10.09,
+          "discount": 0.0,
+          "subtotal": 10.09
+        },
+        {
+          "product_id": "PROD-9746",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 61.66,
+          "discount": 0.0,
+          "subtotal": 123.32
+        }
+      ],
+      "subtotal": 392.76,
+      "tax": 31.42,
+      "shipping_cost": 12.99,
+      "total": 437.17,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "814c73ce-961c-4185-b105-26d3a9737075",
+      "timestamp": "2025-11-11T04:13:34.944514Z",
+      "customer": {
+        "customer_id": "CUST-70580",
+        "name": "Barbara Williams",
+        "email": "barbara.williams@example.com",
+        "country": "Australia",
+        "state": "NC"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7764",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 3,
+          "unit_price": 11.49,
+          "discount": 3.27,
+          "subtotal": 31.2
+        },
+        {
+          "product_id": "PROD-9410",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 89.52,
+          "discount": 0.0,
+          "subtotal": 89.52
+        }
+      ],
+      "subtotal": 120.72,
+      "tax": 9.66,
+      "shipping_cost": 5.99,
+      "total": 136.37,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "931e262e-4d1e-4540-8ae4-30ed875672c3",
+      "timestamp": "2025-11-11T21:29:49.944514Z",
+      "customer": {
+        "customer_id": "CUST-58754",
+        "name": "Jennifer Miller",
+        "email": "jennifer.miller@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1662",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 10.79,
+          "discount": 0.0,
+          "subtotal": 43.16
+        },
+        {
+          "product_id": "PROD-3091",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 40.15,
+          "discount": 0.0,
+          "subtotal": 200.75
+        },
+        {
+          "product_id": "PROD-3974",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 60.07,
+          "discount": 0.0,
+          "subtotal": 240.28
+        },
+        {
+          "product_id": "PROD-1695",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 66.37,
+          "discount": 0.0,
+          "subtotal": 265.48
+        }
+      ],
+      "subtotal": 749.6700000000001,
+      "tax": 59.97,
+      "shipping_cost": 35.99,
+      "total": 845.63,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "5bb5afee-963a-4fcc-b0ac-daede4e76282",
+      "timestamp": "2025-11-11T05:12:30.944514Z",
+      "customer": {
+        "customer_id": "CUST-94378",
+        "name": "William Johnson",
+        "email": "william.johnson@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-9936",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 20.92,
+          "discount": 0.0,
+          "subtotal": 41.84
+        }
+      ],
+      "subtotal": 41.84,
+      "tax": 3.35,
+      "shipping_cost": 5.99,
+      "total": 51.18,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "1ee4f39c-55d7-4660-9f13-5b68fa0de474",
+      "timestamp": "2025-11-11T01:54:27.944514Z",
+      "customer": {
+        "customer_id": "CUST-72444",
+        "name": "Susan Davis",
+        "email": "susan.davis@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3113",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 64.44,
+          "discount": 0.0,
+          "subtotal": 64.44
+        },
+        {
+          "product_id": "PROD-1358",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 41.46,
+          "discount": 0.0,
+          "subtotal": 207.3
+        }
+      ],
+      "subtotal": 271.74,
+      "tax": 21.74,
+      "shipping_cost": 12.99,
+      "total": 306.47,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "6d2ccfa7-1785-42cf-bc0d-7daff7f028c7",
+      "timestamp": "2025-11-11T07:36:31.944514Z",
+      "customer": {
+        "customer_id": "CUST-16909",
+        "name": "James Johnson",
+        "email": "james.johnson@example.com",
+        "country": "France",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7568",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 22.92,
+          "discount": 2.67,
+          "subtotal": 43.17
+        },
+        {
+          "product_id": "PROD-2236",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 31.97,
+          "discount": 0.0,
+          "subtotal": 63.94
+        },
+        {
+          "product_id": "PROD-4478",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 19.48,
+          "discount": 0.0,
+          "subtotal": 97.4
+        }
+      ],
+      "subtotal": 204.51,
+      "tax": 16.36,
+      "shipping_cost": 35.99,
+      "total": 256.86,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "d2fe5aea-19ad-4a2d-8b22-dd1380e9b441",
+      "timestamp": "2025-11-11T18:48:11.944514Z",
+      "customer": {
+        "customer_id": "CUST-92845",
+        "name": "David Lopez",
+        "email": "david.lopez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2029",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 112.5,
+          "discount": 0.0,
+          "subtotal": 112.5
+        },
+        {
+          "product_id": "PROD-5227",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 12.56,
+          "discount": 0.0,
+          "subtotal": 62.8
+        },
+        {
+          "product_id": "PROD-9911",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 1,
+          "unit_price": 89.31,
+          "discount": 0.0,
+          "subtotal": 89.31
+        },
+        {
+          "product_id": "PROD-2755",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 4,
+          "unit_price": 20.74,
+          "discount": 0.0,
+          "subtotal": 82.96
+        },
+        {
+          "product_id": "PROD-6115",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 62.09,
+          "discount": 0.0,
+          "subtotal": 310.45
+        }
+      ],
+      "subtotal": 658.02,
+      "tax": 52.64,
+      "shipping_cost": 24.99,
+      "total": 735.65,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Next Day",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "dc399ee8-f45a-494b-9f89-6731a2821b6f",
+      "timestamp": "2025-11-11T20:39:59.944514Z",
+      "customer": {
+        "customer_id": "CUST-44886",
+        "name": "Linda Jones",
+        "email": "linda.jones@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6201",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 1,
+          "unit_price": 9.97,
+          "discount": 0.0,
+          "subtotal": 9.97
+        },
+        {
+          "product_id": "PROD-8017",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 15.58,
+          "discount": 0.0,
+          "subtotal": 46.74
+        },
+        {
+          "product_id": "PROD-4836",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 3,
+          "unit_price": 83.75,
+          "discount": 0.0,
+          "subtotal": 251.25
+        },
+        {
+          "product_id": "PROD-8469",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 1,
+          "unit_price": 12.37,
+          "discount": 0.0,
+          "subtotal": 12.37
+        }
+      ],
+      "subtotal": 320.33,
+      "tax": 25.63,
+      "shipping_cost": 24.99,
+      "total": 370.95,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "5967d159-ca01-473f-8b08-8490ced3b005",
+      "timestamp": "2025-11-11T10:49:43.944514Z",
+      "customer": {
+        "customer_id": "CUST-63572",
+        "name": "Jennifer Lopez",
+        "email": "jennifer.lopez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5681",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 72.75,
+          "discount": 0.0,
+          "subtotal": 291.0
+        },
+        {
+          "product_id": "PROD-2182",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 9.8,
+          "discount": 0.0,
+          "subtotal": 29.4
+        },
+        {
+          "product_id": "PROD-3214",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 58.04,
+          "discount": 0.0,
+          "subtotal": 58.04
+        },
+        {
+          "product_id": "PROD-2168",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 14.3,
+          "discount": 0.0,
+          "subtotal": 28.6
+        }
+      ],
+      "subtotal": 407.04,
+      "tax": 32.56,
+      "shipping_cost": 12.99,
+      "total": 452.59,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "bd70cd5e-96c9-4e9d-98d8-c98160d25e7d",
+      "timestamp": "2025-11-11T12:23:42.944514Z",
+      "customer": {
+        "customer_id": "CUST-73230",
+        "name": "Richard Gonzalez",
+        "email": "richard.gonzalez@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5885",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 79.81,
+          "discount": 0.0,
+          "subtotal": 399.05
+        },
+        {
+          "product_id": "PROD-1578",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 2,
+          "unit_price": 11.85,
+          "discount": 0.0,
+          "subtotal": 23.7
+        }
+      ],
+      "subtotal": 422.75,
+      "tax": 33.82,
+      "shipping_cost": 24.99,
+      "total": 481.56,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "b21e5705-bfdf-42cd-a0a7-af635c8d21d2",
+      "timestamp": "2025-11-11T03:22:01.944514Z",
+      "customer": {
+        "customer_id": "CUST-93199",
+        "name": "Robert Johnson",
+        "email": "robert.johnson@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-1159",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 36.11,
+          "discount": 0.0,
+          "subtotal": 36.11
+        },
+        {
+          "product_id": "PROD-7234",
+          "product_name": "Water Bottle",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 25.02,
+          "discount": 0.0,
+          "subtotal": 125.1
+        },
+        {
+          "product_id": "PROD-5590",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 44.57,
+          "discount": 0.0,
+          "subtotal": 222.85
+        },
+        {
+          "product_id": "PROD-6156",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 4,
+          "unit_price": 16.83,
+          "discount": 0.0,
+          "subtotal": 67.32
+        },
+        {
+          "product_id": "PROD-4392",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 18.03,
+          "discount": 0.0,
+          "subtotal": 54.09
+        }
+      ],
+      "subtotal": 505.46999999999997,
+      "tax": 40.44,
+      "shipping_cost": 12.99,
+      "total": 558.9,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "28823150-38bf-45c8-914c-7b8d33300f0c",
+      "timestamp": "2025-11-11T01:03:52.944514Z",
+      "customer": {
+        "customer_id": "CUST-84899",
+        "name": "Jennifer Williams",
+        "email": "jennifer.williams@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3474",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 67.42,
+          "discount": 0.0,
+          "subtotal": 67.42
+        }
+      ],
+      "subtotal": 67.42,
+      "tax": 5.39,
+      "shipping_cost": 35.99,
+      "total": 108.8,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "dac60be8-8bb2-4884-af02-cdd059c6ba58",
+      "timestamp": "2025-11-11T23:58:23.944514Z",
+      "customer": {
+        "customer_id": "CUST-44487",
+        "name": "John Jones",
+        "email": "john.jones@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3109",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 13.06,
+          "discount": 6.76,
+          "subtotal": 19.36
+        },
+        {
+          "product_id": "PROD-3774",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 112.04,
+          "discount": 0.0,
+          "subtotal": 336.12
+        }
+      ],
+      "subtotal": 355.48,
+      "tax": 28.44,
+      "shipping_cost": 24.99,
+      "total": 408.91,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "3e09827d-4545-4d4d-b6a8-eafe9f5c7d3d",
+      "timestamp": "2025-11-11T13:12:18.944514Z",
+      "customer": {
+        "customer_id": "CUST-32426",
+        "name": "James Martinez",
+        "email": "james.martinez@example.com",
+        "country": "Japan",
+        "state": "NC"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5568",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 5,
+          "unit_price": 91.82,
+          "discount": 0.0,
+          "subtotal": 459.1
+        },
+        {
+          "product_id": "PROD-1065",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 4,
+          "unit_price": 29.23,
+          "discount": 0.0,
+          "subtotal": 116.92
+        },
+        {
+          "product_id": "PROD-6669",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 1,
+          "unit_price": 12.87,
+          "discount": 0.0,
+          "subtotal": 12.87
+        },
+        {
+          "product_id": "PROD-9196",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 2,
+          "unit_price": 13.32,
+          "discount": 6.22,
+          "subtotal": 20.42
+        },
+        {
+          "product_id": "PROD-7080",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 5,
+          "unit_price": 11.02,
+          "discount": 0.0,
+          "subtotal": 55.1
+        }
+      ],
+      "subtotal": 664.4100000000001,
+      "tax": 53.15,
+      "shipping_cost": 12.99,
+      "total": 730.55,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "cad9423c-e7df-4f76-8e94-be2829763853",
+      "timestamp": "2025-11-11T13:18:44.944514Z",
+      "customer": {
+        "customer_id": "CUST-31413",
+        "name": "Linda Hernandez",
+        "email": "linda.hernandez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3744",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 30.26,
+          "discount": 0.0,
+          "subtotal": 30.26
+        }
+      ],
+      "subtotal": 30.26,
+      "tax": 2.42,
+      "shipping_cost": 24.99,
+      "total": 57.67,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "dd6d0e52-c467-49bc-8b20-ae406b3e56f9",
+      "timestamp": "2025-11-11T01:39:01.944514Z",
+      "customer": {
+        "customer_id": "CUST-20541",
+        "name": "Barbara Lopez",
+        "email": "barbara.lopez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2857",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 94.65,
+          "discount": 0.0,
+          "subtotal": 473.25
+        },
+        {
+          "product_id": "PROD-7910",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 24.16,
+          "discount": 0.0,
+          "subtotal": 72.48
+        },
+        {
+          "product_id": "PROD-8721",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 82.45,
+          "discount": 0.0,
+          "subtotal": 164.9
+        },
+        {
+          "product_id": "PROD-1098",
+          "product_name": "Mechanical Keyboard",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 142.11,
+          "discount": 0.0,
+          "subtotal": 710.55
+        }
+      ],
+      "subtotal": 1421.18,
+      "tax": 113.69,
+      "shipping_cost": 35.99,
+      "total": 1570.86,
+      "payment_method": "Google Pay",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "b406d810-01f7-401a-89bc-75ccbd5d9a82",
+      "timestamp": "2025-11-11T08:30:15.944514Z",
+      "customer": {
+        "customer_id": "CUST-43573",
+        "name": "Mary Gonzalez",
+        "email": "mary.gonzalez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7547",
+          "product_name": "Coffee Mug",
+          "category": "Home",
+          "quantity": 1,
+          "unit_price": 12.26,
+          "discount": 0.0,
+          "subtotal": 12.26
+        },
+        {
+          "product_id": "PROD-8144",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 2,
+          "unit_price": 15.81,
+          "discount": 0.0,
+          "subtotal": 31.62
+        }
+      ],
+      "subtotal": 43.88,
+      "tax": 3.51,
+      "shipping_cost": 24.99,
+      "total": 72.38,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "7b81ba21-57d4-4ba2-b00d-b4352508ea32",
+      "timestamp": "2025-11-11T09:00:02.944514Z",
+      "customer": {
+        "customer_id": "CUST-52944",
+        "name": "Barbara Davis",
+        "email": "barbara.davis@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3093",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 77.6,
+          "discount": 0.0,
+          "subtotal": 388.0
+        },
+        {
+          "product_id": "PROD-3989",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 4,
+          "unit_price": 102.17,
+          "discount": 0.0,
+          "subtotal": 408.68
+        }
+      ],
+      "subtotal": 796.6800000000001,
+      "tax": 63.73,
+      "shipping_cost": 12.99,
+      "total": 873.4,
+      "payment_method": "Google Pay",
+      "shipping_method": "Express",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "882fe76a-f059-40ef-b9b1-52df9a8b0074",
+      "timestamp": "2025-11-11T05:37:56.944514Z",
+      "customer": {
+        "customer_id": "CUST-45305",
+        "name": "Barbara Martinez",
+        "email": "barbara.martinez@example.com",
+        "country": "Japan",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-2157",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 15.06,
+          "discount": 0.0,
+          "subtotal": 60.24
+        },
+        {
+          "product_id": "PROD-5630",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 74.92,
+          "discount": 0.0,
+          "subtotal": 224.76
+        }
+      ],
+      "subtotal": 285.0,
+      "tax": 22.8,
+      "shipping_cost": 35.99,
+      "total": 343.79,
+      "payment_method": "Credit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "18941874-d397-4a88-a636-70a0f9b263e4",
+      "timestamp": "2025-11-11T13:37:42.944514Z",
+      "customer": {
+        "customer_id": "CUST-45121",
+        "name": "Barbara Miller",
+        "email": "barbara.miller@example.com",
+        "country": "Australia",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5754",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 1,
+          "unit_price": 16.8,
+          "discount": 0.0,
+          "subtotal": 16.8
+        }
+      ],
+      "subtotal": 16.8,
+      "tax": 1.34,
+      "shipping_cost": 35.99,
+      "total": 54.13,
+      "payment_method": "Google Pay",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "2a90aab9-8c89-43ea-accc-bcf53312c5c2",
+      "timestamp": "2025-11-11T08:54:54.944514Z",
+      "customer": {
+        "customer_id": "CUST-45852",
+        "name": "Patricia Rodriguez",
+        "email": "patricia.rodriguez@example.com",
+        "country": "Canada",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-8744",
+          "product_name": "USB-C Cable",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 15.47,
+          "discount": 0.0,
+          "subtotal": 61.88
+        },
+        {
+          "product_id": "PROD-6849",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 5,
+          "unit_price": 17.42,
+          "discount": 0.0,
+          "subtotal": 87.1
+        },
+        {
+          "product_id": "PROD-7598",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 1,
+          "unit_price": 33.53,
+          "discount": 0.0,
+          "subtotal": 33.53
+        },
+        {
+          "product_id": "PROD-7880",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 3,
+          "unit_price": 31.4,
+          "discount": 0.0,
+          "subtotal": 94.2
+        }
+      ],
+      "subtotal": 276.71,
+      "tax": 22.14,
+      "shipping_cost": 35.99,
+      "total": 334.84,
+      "payment_method": "Debit Card",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "6e899e58-eea0-40d0-9c80-fe2e697bb5d1",
+      "timestamp": "2025-11-11T17:09:05.944514Z",
+      "customer": {
+        "customer_id": "CUST-83236",
+        "name": "James Davis",
+        "email": "james.davis@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-7437",
+          "product_name": "Desk Organizer",
+          "category": "Office",
+          "quantity": 5,
+          "unit_price": 32.09,
+          "discount": 0.0,
+          "subtotal": 160.45
+        },
+        {
+          "product_id": "PROD-7752",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 1,
+          "unit_price": 14.36,
+          "discount": 0.0,
+          "subtotal": 14.36
+        }
+      ],
+      "subtotal": 174.81,
+      "tax": 13.98,
+      "shipping_cost": 24.99,
+      "total": 213.78,
+      "payment_method": "Credit Card",
+      "shipping_method": "Next Day",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "9c120146-74e3-42b5-a294-b067b0be79be",
+      "timestamp": "2025-11-11T21:38:18.944514Z",
+      "customer": {
+        "customer_id": "CUST-49643",
+        "name": "Susan Miller",
+        "email": "susan.miller@example.com",
+        "country": "USA",
+        "state": "OH"
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-6665",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 4,
+          "unit_price": 51.96,
+          "discount": 0.0,
+          "subtotal": 207.84
+        }
+      ],
+      "subtotal": 207.84,
+      "tax": 16.63,
+      "shipping_cost": 24.99,
+      "total": 249.46,
+      "payment_method": "PayPal",
+      "shipping_method": "Next Day",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "aeca14c1-d276-49ff-a86b-f0ad1ed47fec",
+      "timestamp": "2025-11-11T05:38:03.944514Z",
+      "customer": {
+        "customer_id": "CUST-65335",
+        "name": "Barbara Jones",
+        "email": "barbara.jones@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5804",
+          "product_name": "Phone Case",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 18.6,
+          "discount": 0.0,
+          "subtotal": 74.4
+        },
+        {
+          "product_id": "PROD-9008",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 4,
+          "unit_price": 58.32,
+          "discount": 0.0,
+          "subtotal": 233.28
+        },
+        {
+          "product_id": "PROD-3437",
+          "product_name": "Fitness Tracker",
+          "category": "Wearables",
+          "quantity": 1,
+          "unit_price": 109.5,
+          "discount": 0.0,
+          "subtotal": 109.5
+        },
+        {
+          "product_id": "PROD-8837",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 3,
+          "unit_price": 11.54,
+          "discount": 0.0,
+          "subtotal": 34.62
+        },
+        {
+          "product_id": "PROD-7705",
+          "product_name": "Backpack",
+          "category": "Bags",
+          "quantity": 2,
+          "unit_price": 62.33,
+          "discount": 0.0,
+          "subtotal": 124.66
+        }
+      ],
+      "subtotal": 576.46,
+      "tax": 46.12,
+      "shipping_cost": 24.99,
+      "total": 647.57,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Next Day",
+      "status": "cancelled",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "39bf579a-45fa-4873-8b8c-16b89cb0910b",
+      "timestamp": "2025-11-11T13:54:36.944514Z",
+      "customer": {
+        "customer_id": "CUST-56476",
+        "name": "William Lopez",
+        "email": "william.lopez@example.com",
+        "country": "USA",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-5847",
+          "product_name": "Ergonomic Mouse",
+          "category": "Electronics",
+          "quantity": 3,
+          "unit_price": 60.06,
+          "discount": 0.0,
+          "subtotal": 180.18
+        },
+        {
+          "product_id": "PROD-2664",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 91.31,
+          "discount": 0.0,
+          "subtotal": 182.62
+        },
+        {
+          "product_id": "PROD-3075",
+          "product_name": "Laptop Stand",
+          "category": "Office",
+          "quantity": 2,
+          "unit_price": 51.09,
+          "discount": 0.0,
+          "subtotal": 102.18
+        }
+      ],
+      "subtotal": 464.98,
+      "tax": 37.2,
+      "shipping_cost": 24.99,
+      "total": 527.17,
+      "payment_method": "Apple Pay",
+      "shipping_method": "Next Day",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "4c03bc07-75dd-43ec-87e8-0b44f5d1c78b",
+      "timestamp": "2025-11-11T16:05:24.944514Z",
+      "customer": {
+        "customer_id": "CUST-88659",
+        "name": "James Garcia",
+        "email": "james.garcia@example.com",
+        "country": "Germany",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-4158",
+          "product_name": "Desk Lamp",
+          "category": "Office",
+          "quantity": 1,
+          "unit_price": 37.63,
+          "discount": 7.75,
+          "subtotal": 29.88
+        },
+        {
+          "product_id": "PROD-9450",
+          "product_name": "Portable Charger",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 40.24,
+          "discount": 0.0,
+          "subtotal": 80.48
+        },
+        {
+          "product_id": "PROD-6070",
+          "product_name": "Screen Protector",
+          "category": "Accessories",
+          "quantity": 4,
+          "unit_price": 11.54,
+          "discount": 0.0,
+          "subtotal": 46.16
+        },
+        {
+          "product_id": "PROD-8419",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 2,
+          "unit_price": 90.65,
+          "discount": 0.0,
+          "subtotal": 181.3
+        },
+        {
+          "product_id": "PROD-7138",
+          "product_name": "Notebook Set",
+          "category": "Stationery",
+          "quantity": 2,
+          "unit_price": 17.66,
+          "discount": 0.0,
+          "subtotal": 35.32
+        }
+      ],
+      "subtotal": 373.14,
+      "tax": 29.85,
+      "shipping_cost": 35.99,
+      "total": 438.98,
+      "payment_method": "Google Pay",
+      "shipping_method": "International",
+      "status": "completed",
+      "_is_synthetic_anomaly": false
+    },
+    {
+      "transaction_id": "572d98b8-986c-4335-aefd-f8b181692b8b",
+      "timestamp": "2025-11-11T03:55:26.944514Z",
+      "customer": {
+        "customer_id": "CUST-57047",
+        "name": "Susan Martinez",
+        "email": "susan.martinez@example.com",
+        "country": "UK",
+        "state": null
+      },
+      "line_items": [
+        {
+          "product_id": "PROD-3338",
+          "product_name": "Wireless Headphones",
+          "category": "Electronics",
+          "quantity": 5,
+          "unit_price": 71.87,
+          "discount": 0.0,
+          "subtotal": 359.35
+        }
+      ],
+      "subtotal": 359.35,
+      "tax": 28.75,
+      "shipping_cost": 5.99,
+      "total": 394.09,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard",
+      "status": "pending",
+      "_is_synthetic_anomaly": false
+    }
+  ]
+}

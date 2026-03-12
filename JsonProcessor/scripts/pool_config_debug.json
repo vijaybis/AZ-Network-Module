@@ -1,0 +1,52 @@
+{
+  "name": "mypool",
+  "type": "Microsoft.Batch/batchAccounts/pools",
+  "identity": {
+    "type": "UserAssigned",
+    "userAssignedIdentities": {
+      "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-001": {}
+    }
+  },
+  "properties": {
+    "displayName": "JSON Processor Pool with Managed Identity",
+    "vmSize": "Standard_D2s_v3",
+    "deploymentConfiguration": {
+      "virtualMachineConfiguration": {
+        "imageReference": {
+          "publisher": "microsoft-dsvm",
+          "offer": "ubuntu-hpc",
+          "sku": "2204",
+          "version": "latest"
+        },
+        "nodeAgentSkuId": "batch.node.ubuntu 22.04",
+        "containerConfiguration": {
+          "type": "dockerCompatible",
+          "containerImageNames": [
+            "crriskpocdevlab001.azurecr.io/batch-json-processor:latest"
+          ],
+          "containerRegistries": [
+            {
+              "registryServer": "crriskpocdevlab001.azurecr.io",
+              "identityReference": {
+                "resourceId": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-001"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "scaleSettings": {
+      "autoScale": {
+        "formula": "// Autoscale formula: Adjust pool size based on pending tasks\n$samples = $ActiveTasks.GetSamplePercent(TimeInterval_Minute * 15);\n$tasks = $samples < 70 ? max(0, $ActiveTasks.GetSample(1)) : \nmax($ActiveTasks.GetSample(1), avg($ActiveTasks.GetSample(TimeInterval_Minute * 15)));\n$targetVMs = $tasks > 0 ? $tasks : max(0, $TargetDedicatedNodes / 2);\ncappedPoolSize = 5;\n$TargetDedicatedNodes = max(0, min($targetVMs, cappedPoolSize));\n$NodeDeallocationOption = taskcompletion;",
+        "evaluationInterval": "PT5M"
+      }
+    },
+    "networkConfiguration": {
+      "subnetId": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-devlab-001/providers/Microsoft.Network/virtualNetworks/vnet-risk-poc-devlab-001/subnets/snet-batch-devlab-001",
+      "publicIPAddressConfiguration": {
+        "provision": "NoPublicIPAddresses"
+      },
+      "enableAcceleratedNetworking": false
+    }
+  }
+}

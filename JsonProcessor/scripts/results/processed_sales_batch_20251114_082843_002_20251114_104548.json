@@ -1,0 +1,234 @@
+{
+  "batch_id": "batch_20251114_082843",
+  "input_transaction_count": 100,
+  "processed_at": "2025-11-14T10:45:48.614378Z",
+  "processing_time_seconds": 0.0,
+  "validation": {
+    "total_transactions": 100,
+    "valid_transactions": 100,
+    "invalid_transactions": 0,
+    "validation_errors": []
+  },
+  "analytics": {
+    "summary": {
+      "total_transactions": 100,
+      "completed_transactions": 69,
+      "total_revenue": 30101.56,
+      "total_tax": 2137.98,
+      "total_shipping": 1239.31,
+      "average_order_value": 436.25,
+      "average_tax": 30.99,
+      "average_shipping": 17.96
+    },
+    "status_breakdown": {
+      "completed": 69,
+      "cancelled": 13,
+      "pending": 18
+    },
+    "revenue_by_category": {
+      "Electronics": 9382.16,
+      "Office": 5121.95,
+      "Wearables": 4541.32,
+      "Bags": 3484.0,
+      "Home": 2023.4,
+      "Accessories": 1368.07,
+      "Stationery": 803.37
+    },
+    "top_customers": [
+      {
+        "customer_id": "CUST-40359",
+        "total_revenue": 1168.88,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-89001",
+        "total_revenue": 1033.87,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-38971",
+        "total_revenue": 1028.77,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-72084",
+        "total_revenue": 1004.69,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-10518",
+        "total_revenue": 917.22,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-94309",
+        "total_revenue": 908.16,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-47270",
+        "total_revenue": 880.86,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-23255",
+        "total_revenue": 879.52,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-23691",
+        "total_revenue": 844.74,
+        "order_count": 1
+      },
+      {
+        "customer_id": "CUST-96318",
+        "total_revenue": 776.12,
+        "order_count": 1
+      }
+    ],
+    "top_products_by_revenue": [
+      {
+        "product": "Fitness Tracker",
+        "revenue": 4541.32,
+        "quantity_sold": 49
+      },
+      {
+        "product": "Backpack",
+        "revenue": 3484.0,
+        "quantity_sold": 49
+      },
+      {
+        "product": "Mechanical Keyboard",
+        "revenue": 3270.26,
+        "quantity_sold": 30
+      },
+      {
+        "product": "Ergonomic Mouse",
+        "revenue": 2513.74,
+        "quantity_sold": 44
+      },
+      {
+        "product": "Desk Lamp",
+        "revenue": 2187.14,
+        "quantity_sold": 57
+      },
+      {
+        "product": "Wireless Headphones",
+        "revenue": 1969.35,
+        "quantity_sold": 27
+      },
+      {
+        "product": "Laptop Stand",
+        "revenue": 1753.86,
+        "quantity_sold": 38
+      },
+      {
+        "product": "Water Bottle",
+        "revenue": 1616.87,
+        "quantity_sold": 69
+      },
+      {
+        "product": "Portable Charger",
+        "revenue": 1388.06,
+        "quantity_sold": 40
+      },
+      {
+        "product": "Desk Organizer",
+        "revenue": 1180.95,
+        "quantity_sold": 45
+      }
+    ],
+    "top_products_by_quantity": [
+      {
+        "product": "Water Bottle",
+        "quantity_sold": 69,
+        "revenue": 1616.87
+      },
+      {
+        "product": "Desk Lamp",
+        "quantity_sold": 57,
+        "revenue": 2187.14
+      },
+      {
+        "product": "Screen Protector",
+        "quantity_sold": 57,
+        "revenue": 543.27
+      },
+      {
+        "product": "Notebook Set",
+        "quantity_sold": 49,
+        "revenue": 803.37
+      },
+      {
+        "product": "Fitness Tracker",
+        "quantity_sold": 49,
+        "revenue": 4541.32
+      },
+      {
+        "product": "Backpack",
+        "quantity_sold": 49,
+        "revenue": 3484.0
+      },
+      {
+        "product": "Desk Organizer",
+        "quantity_sold": 45,
+        "revenue": 1180.95
+      },
+      {
+        "product": "Ergonomic Mouse",
+        "quantity_sold": 44,
+        "revenue": 2513.74
+      },
+      {
+        "product": "Phone Case",
+        "quantity_sold": 40,
+        "revenue": 824.8
+      },
+      {
+        "product": "Portable Charger",
+        "quantity_sold": 40,
+        "revenue": 1388.06
+      }
+    ],
+    "payment_methods": {
+      "Apple Pay": 19,
+      "Google Pay": 24,
+      "PayPal": 16,
+      "Debit Card": 16,
+      "Credit Card": 25
+    },
+    "shipping_methods": {
+      "Next Day": 13,
+      "International": 27,
+      "Standard": 33,
+      "Express": 27
+    }
+  },
+  "anomalies": {
+    "high_value_transactions": {
+      "count": 0,
+      "threshold": 5000.0,
+      "transactions": []
+    },
+    "suspicious_patterns": {
+      "count": 0,
+      "patterns": []
+    },
+    "frequent_customers": {
+      "count": 0,
+      "customers": []
+    }
+  },
+  "metadata": {
+    "processor_version": "1.0.0",
+    "input_batch_id": "batch_20251114_082843",
+    "original_generated_at": "2025-11-14T08:28:43.894501Z"
+  },
+  "task_metadata": {
+    "job_id": "json-processing-20251114-103935",
+    "task_id": "task-4",
+    "input_blob": "sales_batch_20251114_082843_002.json",
+    "input_container": "input-container",
+    "output_container": "output-container"
+  }
+}

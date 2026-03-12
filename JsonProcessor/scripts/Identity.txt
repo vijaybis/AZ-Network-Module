@@ -1,0 +1,17 @@
+﻿ "identity": {
+      "name": "id-risk-poc-batch-devlab-001",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-001",
+      "principal_id": "03a507bb-6d67-4655-8940-3307a2cbb451",
+      "client_id": "dfdba649-7ce3-42c5-9c83-8fe43f811afd"
+    }
+   
+  }
+
+   "identity": {
+      "name": "id-risk-poc-batch-devlab-002",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-002",
+      "principal_id": "fc84da79-7f71-4b7b-9e23-1c6b2633d70a",
+      "client_id": "21206e4b-a71c-400a-9ad7-ffaeeef3c81c"
+    }
+   
+  }

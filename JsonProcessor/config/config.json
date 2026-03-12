@@ -1,0 +1,45 @@
+{
+  "azure": {
+    "subscription_id": "8839ae3c-b717-45d7-9944-c2f388001643",
+    "resource_group": "rg-risk-poc-batch-devlab-001",
+    "location": "switzerlandnorth",
+    "storage": {
+      "account_name": "sariskpocdevlab001",
+      "input_container": "input-container",
+      "output_container": "output-container",
+      "logs_container": "batch-logs",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.Storage/storageAccounts/sariskpocdevlab001"
+    },
+    "acr": {
+      "name": "crriskpocdevlab001",
+      "login_server": "crriskpocdevlab001.azurecr.io",
+      "image_name": "processor-image",
+      "image_tag": "latest",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-00/providers/Microsoft.ContainerRegistry/registries/crriskpocdevlab001"
+    },
+    "batch": {
+      "account_name": "bariskpocdevlab001",
+      "account_url": "https://bariskpocdevlab001.switzerlandnorth.batch.azure.com",
+      "account_endpoint": "bariskpocdevlab001.switzerlandnorth.batch.azure.com",
+      "pool_id": "Pool-Json-Processor",
+      "subnet_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-devlab-001/providers/Microsoft.Network/virtualNetworks/vnet-risk-poc-devlab-001/subnets/snet-batch-devlab-001",
+      "managed_identity_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-001",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.Batch/batchAccounts/bariskpocdevlab001",
+      "application_url": "https://sariskpocdevlab001.blob.core.windows.net/application/batchapp.zip"
+    },
+    "environment_variables": {
+        "STORAGE_ACCOUNT_URL": "https://sariskpocdevlab001.blob.core.windows.net",
+        "INPUT_CONTAINER_NAME": "input-container",
+        "INPUT_BLOB_NAME": "input.json",
+        "OUTPUT_CONTAINER_NAME": "output-container",
+        "OUTPUT_BLOB_NAME": "output.json",
+        "USER_MANAGED_IDENTITY_CLIENT_ID": "id-risk-poc-batch-devlab-002"
+    },   
+     "identity": {
+      "name": "id-risk-poc-batch-devlab-001",
+      "resource_id": "/subscriptions/8839ae3c-b717-45d7-9944-c2f388001643/resourceGroups/rg-risk-poc-batch-devlab-001/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-risk-poc-batch-devlab-001",
+      "principal_id": "03a507bb-6d67-4655-8940-3307a2cbb451",
+      "client_id": "dfdba649-7ce3-42c5-9c83-8fe43f811afd"
+    }
+  }
+}

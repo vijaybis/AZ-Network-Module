@@ -1,0 +1,12 @@
+{
+  "error": "JSON parsing failed",
+  "details": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+  "processed_at": "2025-11-11T07:48:02.258393Z",
+  "task_metadata": {
+    "job_id": "json-processing-20251111-074754",
+    "task_id": "task-0",
+    "input_blob": "input.json",
+    "input_container": "input-container",
+    "output_container": "output-container"
+  }
+}
